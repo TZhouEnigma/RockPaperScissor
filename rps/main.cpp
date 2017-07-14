@@ -225,6 +225,10 @@ int main(){
     
     }
     
+    cout<<"\n \nYou won "<<win<<" and lost "<<winOrLose-win<< "out of total 100 games! \n"<<endl;
+    
+    cout<<"Your total winning percentage is "<<double(win/double(winOrLose))<<","<<endl;
+
    
     return 0;
     
